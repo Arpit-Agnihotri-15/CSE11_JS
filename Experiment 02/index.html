@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Experiment 2</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2><u>Employee Salary Management System</u></h2>
+    <div class="input-row">
+        <input type="text" id="name" placeholder="Employee Name">
+        <input type="number" id="id" placeholder="Employee ID">
+        <input type="number" id="salary" placeholder="Salary">
+        <input type="text" id="dept" placeholder="Department">
+    </div>
+    <div class="main-buttons">
+        <button onclick="addEmployee()">Add Employee</button>
+        <button onclick="displayEmployees()">Display All</button>
+    </div>
+    <div class="operation-buttons">
+        <button onclick="filterSalary()">Salary > 50000</button>
+        <button onclick="totalSalary()">Total Salary</button>
+        <button onclick="averageSalary()">Average Salary</button>
+        <button onclick="countDepartment()">Count by Department</button>
+    </div>
+    <hr>
+    <div id="output">
+        Output will appear here...
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
